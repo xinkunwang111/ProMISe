@@ -22,7 +22,7 @@ low-cost pattern shifting, with all of SAM’s parameters frozen.
 Please see requirement.txt(will be relased very soon)
 ## 3.2 Datasets
 1. cvc300
-2. [Clinc-DB] (https://paperswithcode.com/sota/medical-image-segmentation-on-cvc-clinicdb?p=duat-dual-aggregation-transformer-network-for
+2. [Clinc-DB] (https://paperswithcode.com/sota/medical-image-segmentation-on-cvc-clinicdb?p=duat-dual-aggregation-transformer-network-for)
 3. [Clono-DB] (https://paperswithcode.com/sota/medical-image-segmentation-on-cvc-colondb?p=duat-dual-aggregation-transformer-network-for)
 4. [ETIS-LARIBPOLYPDB] (https://paperswithcode.com/sota/medical-image-segmentation-on-etis?p=duat-dual-aggregation-transformer-network-for)
 5. [Kvasir-SEG] (https://paperswithcode.com/sota/medical-image-segmentation-on-kvasir-seg?p=duat-dual-aggregation-transformer-network-for)
