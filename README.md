@@ -8,7 +8,7 @@ SAM to a domain-specific MIS through fine-tuning strategies disable the
 model’s prompting capability, severely limiting its utilization scenarios.
 In this paper, we propose an Auto-Prompting Module (APM), which provides SAM-based foundation model with Euclidean adaptive prompts
 in the target domain. Our experiments demonstrate that such adaptive prompts significantly improve SAM’s non-fine-tuned performance
-in MIS. In addition, we propose a novel non-invasive method called Incremental Pattern Shifting (IPS) to adapt SAM to specific medical domains. Experimental results show that the IPS enables SAM to achieve
+in MIS. In addition, we propose a novel non-invasive method called Incremental Pattern Shifting (IPS) to adapt SAM to specific medical domains.  Experimental results show that the IPS enables SAM to achieve
 state-of-the-art or competitive performance in MIS without the need for
 fine-tuning. By coupling these two methods, we propose ProMISe, an
 end-to-end non-fine-tuned framework for Promptable Medical Image
