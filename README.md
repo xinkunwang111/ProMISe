@@ -22,10 +22,10 @@ low-cost pattern shifting, with all of SAM’s parameters frozen.
 Please see requirement.txt(will be relased very soon)
 ## 3.2 Datasets
 cvc300
-[Clinc-DB](https://paperswithcode.com/sota/medical-image-segmentation-on-cvc-clinicdb?p=duat-dual-aggregation-transformer-network-for
-[Clono-DB](https://paperswithcode.com/sota/medical-image-segmentation-on-cvc-colondb?p=duat-dual-aggregation-transformer-network-for)
-[ETIS-LARIBPOLYPDB](https://paperswithcode.com/sota/medical-image-segmentation-on-etis?p=duat-dual-aggregation-transformer-network-for)
-[Kvasir-SEG[(https://paperswithcode.com/sota/medical-image-segmentation-on-kvasir-seg?p=duat-dual-aggregation-transformer-network-for)
+[Clinc-DB] (https://paperswithcode.com/sota/medical-image-segmentation-on-cvc-clinicdb?p=duat-dual-aggregation-transformer-network-for
+[Clono-DB] (https://paperswithcode.com/sota/medical-image-segmentation-on-cvc-colondb?p=duat-dual-aggregation-transformer-network-for)
+[ETIS-LARIBPOLYPDB] (https://paperswithcode.com/sota/medical-image-segmentation-on-etis?p=duat-dual-aggregation-transformer-network-for)
+[Kvasir-SEG] (https://paperswithcode.com/sota/medical-image-segmentation-on-kvasir-seg?p=duat-dual-aggregation-transformer-network-for)
 ## 3.3 Train
 You can change the train model by adding these phrase in args.net_name.
 1. 'APM_cross': For only use APM with cross attention
