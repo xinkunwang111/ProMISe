@@ -39,7 +39,7 @@ You can load the pre-trained model's checkpoint into `args.check_point_path`.
 ## 3.4 Evaluation
 You can change the evaluation model by adding these phrase in `args.net_name`.
 1. `APM_cross_eval`: For only use APM with cross attention
-2. `APM_resnet_eva`l: For only use APM with resnet34
+2. `APM_resnet_eval`: For only use APM with resnet34
 3. `APM_IPS_cross_eval`: Use cross attention as APM, and use IPS block
 4. `APM_IPS_resnet_eval`: Use resnet34 as APM, and use IPS block
 5. `IPS_GT_eval`:Use GT points as prompt, and use IPS block
