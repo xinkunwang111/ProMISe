@@ -21,10 +21,10 @@ low-cost pattern shifting, with all of SAM’s parameters frozen.
 ## 3.1 Packages
 Please see requirement.txt(will be relased very soon)
 ## 3.2 Datasets
-CVC-300
-Clinc-DB
-Clono-DB
-ETIS-LARIBPOLYPDB
+CVC-300/
+Clinc-DB/
+Clono-DB/
+ETIS-LARIBPOLYPDB/
 Kvasir-SEG
 ## 3.3 Train
 You can change the train model by adding these phrase in args.net_name.
