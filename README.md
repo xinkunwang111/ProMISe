@@ -1,7 +1,7 @@
 # ProMISe: Promptable Medical Image Segmentation using SAM
 Our code will be released in the very near future.
-The [paper][Link1] (https://arxiv.org/pdf/2403.04164.pdf)  has been stored in Arxiv:
-[Link1]:https://arxiv.org/pdf/2403.04164.pdf
+The [paper](https://arxiv.org/pdf/2403.04164.pdf)  has been stored in Arxiv:
+[Link1]: https://arxiv.org/pdf/2403.04164.pdf
 # 1. Introduction
 With the proposal of Segment Anything Model (SAM), finetuning SAM for medical image segmentation (MIS) has become popular. However, due to the large size of the SAM model and the significant domain gap between natural and medical images, fine-tuning-based
 strategies are costly with potential risk of instability, feature damage
