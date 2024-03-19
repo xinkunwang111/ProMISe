@@ -1,7 +1,8 @@
 # ProMISe: Promptable Medical Image Segmentation using SAM
 Our code will be released in the very near future.
 The [paper](https://arxiv.org/pdf/2403.04164.pdf)  has been stored in Arxiv:
-[Link1]: https://arxiv.org/pdf/2403.04164.pdf
+Our [main page](https://paperswithcode.com/paper/promise-promptable-medical-image-segmentation) in paperwithcode.
+
 # 1. Introduction
 With the proposal of Segment Anything Model (SAM), finetuning SAM for medical image segmentation (MIS) has become popular. However, due to the large size of the SAM model and the significant domain gap between natural and medical images, fine-tuning-based
 strategies are costly with potential risk of instability, feature damage
@@ -23,11 +24,12 @@ low-cost pattern shifting, with all of SAM’s parameters frozen.
 ## 3.1 Packages
 Please see requirement.txt(will be relased very soon)
 ## 3.2 Datasets
-1. cvc300(Endoscene)
-2. [Clinc-DB] (https://paperswithcode.com/sota/medical-image-segmentation-on-cvc-clinicdb?p=duat-dual-aggregation-transformer-network-for)
-3. [Clono-DB] (https://paperswithcode.com/sota/medical-image-segmentation-on-cvc-colondb?p=duat-dual-aggregation-transformer-network-for)
-4. [ETIS-LARIBPOLYPDB] (https://paperswithcode.com/sota/medical-image-segmentation-on-etis?p=duat-dual-aggregation-transformer-network-for)
-5. [Kvasir-SEG] (https://paperswithcode.com/sota/medical-image-segmentation-on-kvasir-seg?p=duat-dual-aggregation-transformer-network-for)
+1. [cvc300(Endoscene)](https://pages.cvc.uab.es/CVC-Colon/index.php/databases/cvc-endoscenestill/)
+2. [Clinic-DB](https://polyp.grand-challenge.org/CVCClinicDB/)
+3. [Colon-DB](https://figshare.com/articles/figure/Polyp_DataSet_zip/21221579)
+4. [ETIS-LARIBPOLYPDB](https://polyp.grand-challenge.org/ETISLarib/)
+5. [Kvasir-SEG](https://www.kaggle.com/datasets/meetnagadia/kvasir-dataset)
+6. [ISIC-2018](https://challenge.isic-archive.com/data/#2018)
 ## 3.3 Train
 You can change the train model by adding these phrase in `args.net_name`.
 1. `APM_cross`: For only use APM with cross attention
