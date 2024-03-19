@@ -16,6 +16,7 @@ Segmentation. Our experiments demonstrate that both using our methods individual
 low-cost pattern shifting, with all of SAM’s parameters frozen.
 # 2. Framework
 ![image](https://github.com/xinkunwang111/ProMISe/assets/130198762/1e1ff6cf-7eb6-4ab9-a2a5-7fc28661c3a5)
+
 #3. Usage
 ##3.1 Packages
 Please see requirement.txt(will be relased very soon)
@@ -25,7 +26,7 @@ Clinc-DB
 Clono-DB
 ETIS-LARIBPOLYPDB
 Kvasir-SEG
-##3.3 Train
+#3.3 Train
 You can change the train model by adding these phrase in args.net_name.
 1. APM_cross: For only use APM with cross attention
 2. APM_resnet: For only use APM with resnet34
