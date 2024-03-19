@@ -1,6 +1,7 @@
 # ProMISe: Promptable Medical Image Segmentation using SAM
 Our code will be released in the very near future.
-#1. Introduction
+The [paper] (https://arxiv.org/pdf/2403.04164.pdf)  has been stored in Arxiv:
+# 1. Introduction
 With the proposal of Segment Anything Model (SAM), finetuning SAM for medical image segmentation (MIS) has become popular. However, due to the large size of the SAM model and the significant domain gap between natural and medical images, fine-tuning-based
 strategies are costly with potential risk of instability, feature damage
 and catastrophic forgetting. Furthermore, some methods of transferring
@@ -21,7 +22,7 @@ low-cost pattern shifting, with all of SAM’s parameters frozen.
 ## 3.1 Packages
 Please see requirement.txt(will be relased very soon)
 ## 3.2 Datasets
-1. cvc300
+1. cvc300(Endoscene)
 2. [Clinc-DB] (https://paperswithcode.com/sota/medical-image-segmentation-on-cvc-clinicdb?p=duat-dual-aggregation-transformer-network-for)
 3. [Clono-DB] (https://paperswithcode.com/sota/medical-image-segmentation-on-cvc-colondb?p=duat-dual-aggregation-transformer-network-for)
 4. [ETIS-LARIBPOLYPDB] (https://paperswithcode.com/sota/medical-image-segmentation-on-etis?p=duat-dual-aggregation-transformer-network-for)
