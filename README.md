@@ -17,16 +17,16 @@ low-cost pattern shifting, with all of SAM’s parameters frozen.
 # 2. Framework
 ![image](https://github.com/xinkunwang111/ProMISe/assets/130198762/1e1ff6cf-7eb6-4ab9-a2a5-7fc28661c3a5)
 
-#3. Usage
-##3.1 Packages
+# 3. Usage
+## 3.1 Packages
 Please see requirement.txt(will be relased very soon)
-##3.2 Datasets
+## 3.2 Datasets
 CVC-300
 Clinc-DB
 Clono-DB
 ETIS-LARIBPOLYPDB
 Kvasir-SEG
-#3.3 Train
+## 3.3 Train
 You can change the train model by adding these phrase in args.net_name.
 1. APM_cross: For only use APM with cross attention
 2. APM_resnet: For only use APM with resnet34
@@ -38,7 +38,7 @@ You can change the train model by adding these phrase in args.net_name.
 
 You can load the pre-trained model's checkpoint into args.check_point_path.
 
-##3.4 Evaluation
+## 3.4 Evaluation
 You can change the evaluation model by adding these phrase in args.net_name.
 1. APM_cross_test: For only use APM with cross attention
 2. APM_resnet_test: For only use APM with resnet34
@@ -50,7 +50,9 @@ You can change the evaluation model by adding these phrase in args.net_name.
 
 You can load the trained model's checkpoint into args.check_point_path.
 
-#4. Acknowledge
+
+
+# 4. Acknowledge
 We are very grateful for the endeavour and works from Meta. Their works on SAM provide the fundament for our framework.
 
 
