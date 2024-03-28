@@ -22,7 +22,7 @@ low-cost pattern shifting, with all of SAM’s parameters frozen.
 
 # 3. Usage
 ## 3.1 Packages
-Please see SAM.taml.
+Please see SAM.yaml.
 ## 3.2 Datasets
 1. [cvc300(Endoscene)](https://pages.cvc.uab.es/CVC-Colon/index.php/databases/cvc-endoscenestill/)
 2. [Clinic-DB](https://polyp.grand-challenge.org/CVCClinicDB/)
