@@ -59,9 +59,9 @@ You can load the trained model's checkpoint into `args.TEST_check_point_path`.
 
 # 4. Notes
 ## 4.1  random seed
-In training process with IPS_GT, the random seed is important. In order to keep the stability and generalization when evaluation, we recommend you do not set random seed in training  process. If you choose random seed, please keep the same random seed when you do the evaluation. 
+In training process with `IPS_GT`, the random seed is important. In order to keep the stability and generalization when evaluation, we recommend you do not set random seed in training  process. If you choose random seed, please keep the same random seed when you do the evaluation. 
 ## 4.2 Postprocessing
-We use ` cv2.morphologyEx(image, cv2.MORPH_OPEN, kernel)` to do the postprocessing. However, the best choice of kernel size and cv2.MORPH_OPEN/cv2.MORPH_CLOSE may vary with models and datasets.
+We use ` cv2.morphologyEx(image, cv2.MORPH_OPEN, kernel)` to do the postprocessing. However, the best choice of `kernel size` and `cv2.MORPH_OPEN/cv2.MORPH_CLOSE` may vary with models and datasets.
 
 # 4. Acknowledge
 We are very grateful for the endeavour and works from Meta. Their work on SAM provide the fundament for our framework.
