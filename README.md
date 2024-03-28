@@ -30,27 +30,35 @@ Please see requirement.txt(will be relased very soon)
 4. [ETIS-LARIBPOLYPDB](https://polyp.grand-challenge.org/ETISLarib/)
 5. [Kvasir-SEG](https://www.kaggle.com/datasets/meetnagadia/kvasir-dataset)
 6. [ISIC-2018](https://challenge.isic-archive.com/data/#2018)
+
 ## 3.3 Train
 You can change the train model by adding these phrase in `args.net_name`.
-1. `APM_cross`: For only use APM with cross attention
-2. `APM_resnet`: For only use APM with resnet34
-3. `APM_IPS_cross`: Use cross attention as APM, and use IPS block
-4. `APM_IPS_resnet`: Use resnet34 as APM, and use IPS block
-5. `IPS_GT`:Use GT points as prompt, and use IPS block
+
+1, `APM_resnet`: For only use APM with resnet34
+2. `APM_IPS_resnet`: Use resnet34 as APM, and use IPS block
+3. `IPS_GT`:Use GT points as prompt, and use IPS block
 
 You can load the pre-trained model's checkpoint into `args.check_point_path`.
 
 ## 3.4 Evaluation
 You can change the evaluation model by adding these phrase in `args.net_name`.
-1. `APM_cross_eval`: For only use APM with cross attention
-2. `APM_resnet_eval`: For only use APM with resnet34
-3. `APM_IPS_cross_eval`: Use cross attention as APM, and use IPS block
-4. `APM_IPS_resnet_eval`: Use resnet34 as APM, and use IPS block
-5. `IPS_GT_eval`:Use GT points as prompt, and use IPS block
+
+1, `APM_resnet`: For only use APM with resnet34
+2. `APM_IPS_GT_resnet`: Use checkpoint trained in `APM_IPS_resnet`, but use GT to provide point prompts.
+3. `IPS_GT`:Use GT points as prompt, and use IPS block
 
 You can load the trained model's checkpoint into `args.check_point_path`.
 
+## 3.5 Checkpoints
+1. [APM_resnet](https://drive.google.com/file/d/1bjyRUKolZ5ON-egnSnfpLNdyDQvcOmWL/view?usp=drive_link)
+2. [APM_IPS_resnet](https://drive.google.com/file/d/1HSX4HgrrBreAoVDSUcOZhpN8BnKEnJO-/view?usp=drive_link)
+3. [IPS_GT](https://drive.google.com/file/d/1R1eqzYkEjoynSynn8OP4maL6YjZjgW-f/view?usp=drive_link
 
+# 4. Notes
+## 4.1  random seed
+In training process with IPS_GT, the random seed is important. In order to keep the stability and generalization when evaluation, we recommend you do not set random seed in training  process. If you choose random seed, please keep the same random seed when you do the evaluation. 
+## 4.2 Postprocessing
+We use ` cv2.morphologyEx(image, cv2.MORPH_OPEN, kernel)` to do the postprocessing. However, the best choice of kernel size and cv2.MORPH_OPEN/cv2.MORPH_CLOSE may vary with models and datasets.
 
 # 4. Acknowledge
 We are very grateful for the endeavour and works from Meta. Their works on SAM provide the fundament for our framework.
