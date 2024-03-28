@@ -50,7 +50,7 @@ Please use eval_ProMISe.sh
 3.  `IPS_GT`:Use GT points as prompt, and use IPS block
 
 
-You can load the trained model's checkpoint into `args.check_point_path`.
+You can load the trained model's checkpoint into `args.TEST_check_point_path`.
 
 ## 3.5 Checkpoints
 1. [APM_resnet](https://drive.google.com/file/d/1bjyRUKolZ5ON-egnSnfpLNdyDQvcOmWL/view?usp=drive_link)
