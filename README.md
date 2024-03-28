@@ -22,7 +22,7 @@ low-cost pattern shifting, with all of SAM’s parameters frozen.
 
 # 3. Usage
 ## 3.1 Packages
-Please see requirement.txt(will be relased very soon)
+Please see SAM.taml.
 ## 3.2 Datasets
 1. [cvc300(Endoscene)](https://pages.cvc.uab.es/CVC-Colon/index.php/databases/cvc-endoscenestill/)
 2. [Clinic-DB](https://polyp.grand-challenge.org/CVCClinicDB/)
@@ -31,8 +31,10 @@ Please see requirement.txt(will be relased very soon)
 5. [Kvasir-SEG](https://www.kaggle.com/datasets/meetnagadia/kvasir-dataset)
 6. [ISIC-2018](https://challenge.isic-archive.com/data/#2018)
 
+   The input dataset csv format should follow the "combined_5_1024.csv". 
+
 ## 3.3 Train
-You can change the train model by adding these phrase in `args.net_name`.
+You can change the train model by input "train" `args.TYPE`.
 
 1, `APM_resnet`: For only use APM with resnet34
 2. `APM_IPS_resnet`: Use resnet34 as APM, and use IPS block
@@ -41,7 +43,7 @@ You can change the train model by adding these phrase in `args.net_name`.
 You can load the pre-trained model's checkpoint into `args.check_point_path`.
 
 ## 3.4 Evaluation
-You can change the evaluation model by adding these phrase in `args.net_name`.
+You can change the train model by input "eval" `args.TYPE`.
 
 1, `APM_resnet`: For only use APM with resnet34
 2. `APM_IPS_GT_resnet`: Use checkpoint trained in `APM_IPS_resnet`, but use GT to provide point prompts.
