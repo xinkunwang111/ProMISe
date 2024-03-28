@@ -1,5 +1,5 @@
 # ProMISe: Promptable Medical Image Segmentation using SAM
-Our code will be released in the very near future.
+
 The [paper](https://arxiv.org/pdf/2403.04164.pdf) has been stored in Arxiv.
 Our [main page](https://paperswithcode.com/paper/promise-promptable-medical-image-segmentation) in paperwithcode.
 
