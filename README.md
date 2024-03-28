@@ -36,7 +36,7 @@ Please see SAM.yaml.
 ## 3.3 Train
 Please use train_ProMISe.sh
 
-1, `APM_resnet`: For only use APM with resnet34
+1. `APM_resnet`: For only use APM with resnet34
 2. `APM_IPS_resnet`: Use resnet34 as APM, and use IPS block
 3. `IPS_GT`:Use GT points as prompt, and use IPS block
 
