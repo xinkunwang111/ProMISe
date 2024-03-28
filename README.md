@@ -45,9 +45,10 @@ You can load the pre-trained model's checkpoint into `args.check_point_path`.
 ## 3.4 Evaluation
 Please use eval_ProMISe.sh
 
-1, `APM_resnet`: For only use APM with resnet34
-2. `APM_IPS_GT_resnet`: Use checkpoint trained in `APM_IPS_resnet`, but use GT to provide point prompts.
-3. `IPS_GT`:Use GT points as prompt, and use IPS block
+1. `APM_resnet`: For only use APM with resnet34
+2.  `APM_IPS_GT_resnet`: Use checkpoint trained in `APM_IPS_resnet`, but use GT to provide point prompts.
+3.  `IPS_GT`:Use GT points as prompt, and use IPS block
+
 
 You can load the trained model's checkpoint into `args.check_point_path`.
 
