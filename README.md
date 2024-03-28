@@ -63,7 +63,7 @@ In training process with `IPS_GT`, the random seed is important. In order to kee
 ## 4.2 Postprocessing
 We use ` cv2.morphologyEx(image, cv2.MORPH_OPEN, kernel)` to do the postprocessing. However, the best choice of `kernel size` and `cv2.MORPH_OPEN/cv2.MORPH_CLOSE` may vary with models and datasets.
 
-# 4. Acknowledge
+# 5. Acknowledge
 We are very grateful for the endeavour and works from Meta. Their work on SAM provide the fundament for our framework.
 
 
