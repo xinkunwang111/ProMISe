@@ -31,7 +31,13 @@ Please see SAM.yaml.
 5. [Kvasir-SEG](https://www.kaggle.com/datasets/meetnagadia/kvasir-dataset)
 6. [ISIC-2018](https://challenge.isic-archive.com/data/#2018)
 
-   The input dataset csv format should follow the "combined_5_1024.csv".
+The input dataset csv format should follow the "combined_5_1024.csv".
+1. [Rank1- ISIC2018](https://paperswithcode.com/sota/lesion-segmentation-on-isic-2018)
+2. [Rank2- Colon-DB](https://paperswithcode.com/sota/medical-image-segmentation-on-cvc-colondb)
+3. [Rank2- ETIS](https://paperswithcode.com/sota/medical-image-segmentation-on-etis)
+4. [Rank25- Kvasir](https://paperswithcode.com/sota/medical-image-segmentation-on-kvasir-seg)
+
+
 
 
 ## 3.3 Train
@@ -59,7 +65,7 @@ You can load the trained model's checkpoint into `args.TEST_check_point_path`.
 3. [IPS_GT](https://drive.google.com/file/d/1R1eqzYkEjoynSynn8OP4maL6YjZjgW-f/view?usp=drive_link)
 
 # 4. Notes
-## 4.1  random seed
+## 4.1  Random Seed
 In training process with `IPS_GT`, the random seed is important. In order to keep the stability and generalization when evaluation, we recommend you do not set random seed in training  process. If you choose random seed, please keep the same random seed when you do the evaluation. This might help you get better performance.
 ## 4.2 Postprocessing
 We use ` cv2.morphologyEx(image, cv2.MORPH_OPEN, kernel)` to do the postprocessing. However, the best choice of `kernel size` and `cv2.MORPH_OPEN/cv2.MORPH_CLOSE` may vary with models and datasets.
