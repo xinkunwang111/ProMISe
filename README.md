@@ -43,7 +43,7 @@ The input dataset csv format should follow the "combined_5_1024.csv"
 
 
 ## 3.3 Train
-Please use train_ProMISe.sh
+Please use train_ProMISe.sh.  You can change the model different   `net_name`
 
 1. `APM_resnet`: For only use APM with resnet34
 2. `APM_IPS_resnet`: Use resnet34 as APM, and use IPS block
@@ -52,7 +52,7 @@ Please use train_ProMISe.sh
 You can load the pre-trained model's checkpoint into `check_point_path`.
 
 ## 3.4 Evaluation
-Please use eval_ProMISe.sh
+Please use eval_ProMISe.sh.  You can change the model different   `net_name`
 
 1. `APM_resnet`: For only use APM with resnet34
 2.  `APM_IPS_GT_resnet`: Use checkpoint trained in `APM_IPS_resnet`, but use GT to provide point prompts.
