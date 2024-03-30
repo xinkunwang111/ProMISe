@@ -59,7 +59,7 @@ Please use eval_ProMISe.sh.  You can change the model different   `net_name`
 3.  `IPS_GT`:Use GT points as prompt, and use IPS block
 
 
-You can load the trained model's checkpoint into `TEST_check_point_path`.If you want to acquire the metrics for different dataset, you can input the split csv file of the other datasets into `TEST_IF_SPLIT_CSV`. (You can refer to 6 csv files in `Data_set_format` folder.)
+You can load the trained model's checkpoint into `TEST_check_point_path`.If you want to acquire the metrics for different dataset, you can input the split csv file of the other datasets into `TEST_IF_SPLIT_CSV`. (You can refer the format of 6 csv files in `Data_set_format` folder.)
 
 ## 3.5 Checkpoints
 1. [APM_resnet](https://drive.google.com/file/d/1bjyRUKolZ5ON-egnSnfpLNdyDQvcOmWL/view?usp=drive_link)
