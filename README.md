@@ -31,7 +31,7 @@ Please see SAM.yaml.
 5. [Kvasir-SEG](https://www.kaggle.com/datasets/meetnagadia/kvasir-dataset)
 6. [ISIC-2018](https://challenge.isic-archive.com/data/#2018)
 
-The input dataset csv format should follow the "combined_5_1024.csv".
+The input dataset csv format should follow the "combined_5_1024.csv" 
 1. [Rank1- ISIC2018](https://paperswithcode.com/sota/lesion-segmentation-on-isic-2018)
 2. [Rank2- Colon-DB](https://paperswithcode.com/sota/medical-image-segmentation-on-cvc-colondb)
 3. [Rank2- ETIS](https://paperswithcode.com/sota/medical-image-segmentation-on-etis)
@@ -47,7 +47,7 @@ Please use train_ProMISe.sh
 2. `APM_IPS_resnet`: Use resnet34 as APM, and use IPS block
 3. `IPS_GT`:Use GT points as prompt, and use IPS block
 
-You can load the pre-trained model's checkpoint into `args.check_point_path`.
+You can load the pre-trained model's checkpoint into `check_point_path`.
 
 ## 3.4 Evaluation
 Please use eval_ProMISe.sh
@@ -57,7 +57,7 @@ Please use eval_ProMISe.sh
 3.  `IPS_GT`:Use GT points as prompt, and use IPS block
 
 
-You can load the trained model's checkpoint into `args.TEST_check_point_path`.
+You can load the trained model's checkpoint into `TEST_check_point_path`.If you want to acquire the metrics for different dataset, you can input the split csv file of the other datasets into `TEST_IF_SPLIT_CSV`. (You can refer to 6 csv files in `Data_set_format` folder.)
 
 ## 3.5 Checkpoints
 1. [APM_resnet](https://drive.google.com/file/d/1bjyRUKolZ5ON-egnSnfpLNdyDQvcOmWL/view?usp=drive_link)
