@@ -20,10 +20,10 @@ low-cost pattern shifting, with all of SAM’s parameters frozen.
 # 2. Framework
 ![image](https://github.com/xinkunwang111/ProMISe/assets/130198762/1e1ff6cf-7eb6-4ab9-a2a5-7fc28661c3a5)
 
-1.  [PaperwithcodeRank1- ISIC2018](https://paperswithcode.com/sota/lesion-segmentation-on-isic-2018)
-2. [PaperwithcodeRank2- Colon-DB](https://paperswithcode.com/sota/medical-image-segmentation-on-cvc-colondb)
-3. [PaperwithcodeRank2- ETIS](https://paperswithcode.com/sota/medical-image-segmentation-on-etis)
-4. [PaperwithcodeRank25- Kvasir](https://paperswithcode.com/sota/medical-image-segmentation-on-kvasir-seg)
+1.  [Paperwithcode-ISIC2018-Rank1](https://paperswithcode.com/sota/lesion-segmentation-on-isic-2018)
+2. [Paperwithcode-Colon-DB-Rank2](https://paperswithcode.com/sota/medical-image-segmentation-on-cvc-colondb)
+3. [Paperwithcode-ETIS-Rank2](https://paperswithcode.com/sota/medical-image-segmentation-on-etis)
+4. [Paperwithcode-Kvasir-Rank25](https://paperswithcode.com/sota/medical-image-segmentation-on-kvasir-seg)
 
 
 # 3. Usage
