@@ -20,10 +20,15 @@ low-cost pattern shifting, with all of SAM’s parameters frozen.
 # 2. Framework
 ![image](https://github.com/xinkunwang111/ProMISe/assets/130198762/1e1ff6cf-7eb6-4ab9-a2a5-7fc28661c3a5)
 
-1.  [Paperwithcode-ISIC2018-Rank1](https://paperswithcode.com/sota/lesion-segmentation-on-isic-2018)
-2. [Paperwithcode-Colon-DB-Rank2](https://paperswithcode.com/sota/medical-image-segmentation-on-cvc-colondb)
-3. [Paperwithcode-ETIS-Rank2](https://paperswithcode.com/sota/medical-image-segmentation-on-etis)
-4. [Paperwithcode-Kvasir-Rank25](https://paperswithcode.com/sota/medical-image-segmentation-on-kvasir-seg)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/promise-promptable-medical-image-segmentation/medical-image-segmentation-on-isic-2018-1)](https://paperswithcode.com/sota/medical-image-segmentation-on-isic-2018-1?p=promise-promptable-medical-image-segmentation)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/promise-promptable-medical-image-segmentation/medical-image-segmentation-on-cvc-colondb)](https://paperswithcode.com/sota/medical-image-segmentation-on-cvc-colondb?p=promise-promptable-medical-image-segmentation)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/promise-promptable-medical-image-segmentation/medical-image-segmentation-on-etis)](https://paperswithcode.com/sota/medical-image-segmentation-on-etis?p=promise-promptable-medical-image-segmentation)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/promise-promptable-medical-image-segmentation/lesion-segmentation-on-isic-2018)](https://paperswithcode.com/sota/lesion-segmentation-on-isic-2018?p=promise-promptable-medical-image-segmentation)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/promise-promptable-medical-image-segmentation/medical-image-segmentation-on-kvasir-seg)](https://paperswithcode.com/sota/medical-image-segmentation-on-kvasir-seg?p=promise-promptable-medical-image-segmentation)
 
 
 # 3. Usage
