@@ -1,6 +1,6 @@
 # ProMISe: Promptable Medical Image Segmentation using SAM
 
-The [paper]([https://arxiv.org/pdf/2403.04164.pdf](https://openreview.net/pdf?id=apG2vDGpN5)) has been accepted by neurips
+The [paper]([https://openreview.net/pdf?id=apG2vDGpN5](https://openreview.net/pdf?id=apG2vDGpN5)) has been accepted by neurips
 .
 Our main page in paperwithcode is [here](https://paperswithcode.com/paper/promise-promptable-medical-image-segmentation)
 
